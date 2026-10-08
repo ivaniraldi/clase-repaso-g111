@@ -1,7 +1,9 @@
 import { useState } from "react"
+import { useNavigate } from "react-router-dom"
 
 export default function Login (){
     //useState
+    const navigate = useNavigate()
     const [email, setEmail] = useState("")
     const [pass, setPass] = useState("")
 
@@ -18,6 +20,7 @@ export default function Login (){
         }
 
         alert("Iniciaste sesión!")
+        navigate("/tienda")
         return
     }
 

@@ -1,6 +1,6 @@
-import Footer from "./Footer";
-import Navbar from "./Navbar";
-import TodoList from "./TodoList";
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
+import TodoList from "../components/TodoList";
 
 export default function VistaToDo() {
   return (

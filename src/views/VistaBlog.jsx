@@ -1,6 +1,6 @@
-import BlogArticle from "./BlogArticle";
-import Footer from "./Footer";
-import Navbar from "./Navbar";
+import BlogArticle from "../components/BlogArticle";
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
 
 export default function VistaBlog(){
 const articulos = [

@@ -1,6 +1,6 @@
-import Footer from "./Footer"
-import Login from "./Login"
-import Navbar from "./Navbar"
+import Footer from "../components/Footer"
+import Login from "../components/Login"
+import Navbar from "../components/Navbar"
 
 export default function VistaLogin (){
     return(
